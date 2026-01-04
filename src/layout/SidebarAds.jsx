@@ -1,4 +1,4 @@
-import adPlaceholder from '../assests/ads/adPh.jpg'
+import adPlaceholder from '../assets/ads/adPh.jpg'
 
 export default function SidebarAds() {
   return (

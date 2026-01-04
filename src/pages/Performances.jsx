@@ -1,5 +1,5 @@
 import { theme } from '../styles/theme.js'
-import personPlaceholder from '../assests/placeholder/portrait_PH.jpg'
+import personPlaceholder from '../assets/placeholder/portrait_PH.jpg'
 
 export default function Performances() {
   return (
