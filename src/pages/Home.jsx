@@ -25,7 +25,7 @@ export default function Home() {
           className={`${theme.heading.primary} leading-tight animate-rise`}
         >
           IKOLE <br />
-          <span className="text-gold drop-shadow-[0_0_30px_rgba(212,175,55,0.35)] ml-14">
+          <span className="text-gold drop-shadow-[0_0_30px_rgba(212,175,55,0.35)] text-center block">
             BALLON D’OR
           </span>{' '}
           <span className="text-white/80">1.0</span>
