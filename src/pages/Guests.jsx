@@ -1,4 +1,4 @@
-import { theme } from '../styles/theme'
+import { theme } from '../styles/theme.js'
 import personPlaceholder from '../assests/placeholder/portrait_PH.jpg'
 
 export default function Guests() {

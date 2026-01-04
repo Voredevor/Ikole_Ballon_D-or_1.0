@@ -1,4 +1,4 @@
-import { theme } from '../styles/theme'
+import { theme } from '../styles/theme.js'
 import sponsorPlaceholder from '../assests/placeholder/advertPH.svg'
 
 export default function Sponsors() {

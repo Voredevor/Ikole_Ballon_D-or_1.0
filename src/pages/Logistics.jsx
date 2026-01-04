@@ -1,5 +1,5 @@
-import Container from "../components/container"
-import { theme } from "../styles/theme"
+import Container from "../components/Container.jsx"
+import { theme } from "../styles/theme.js"
 
 export default function Logistics() {
   return (

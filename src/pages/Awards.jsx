@@ -1,5 +1,5 @@
 import { awards } from '../data/awards.data'
-import { theme } from '../styles/theme'
+import { theme } from '../styles/theme.js'
 import awardPlaceholder from '../assests/placeholder/31343C.svg'
 import Container from '../components/Container.jsx'
 

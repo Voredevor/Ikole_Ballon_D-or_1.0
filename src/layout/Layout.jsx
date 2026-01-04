@@ -1,8 +1,8 @@
-import Navbar from './Navbar'
-import Footer from './Footer'
-import Ticker from './Ticker'
-import SidebarAds from './SidebarAds'
-import { theme } from '../styles/theme'
+import Navbar from './Navbar.jsx'
+import Footer from './Footer.jsx'
+import Ticker from './Ticker.jsx'
+import SidebarAds from './SidebarAds.jsx'
+import { theme } from '../styles/theme.js'
 
 export default function Layout({ children }) {
   return (

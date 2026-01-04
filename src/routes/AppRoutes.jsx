@@ -1,14 +1,14 @@
 import { Routes, Route } from 'react-router-dom'
 
-import Home from '../pages/Home'
-import About from '../pages/About'
-import Awards from '../pages/Awards'
-import Voting from '../pages/Voting'
-import Tickets from '../pages/Tickets'
-import Guests from '../pages/Guests'
-import Performances from '../pages/Performances'
-import Sponsors from '../pages/Sponsors'
-import Logistics from '../pages/Logistics'
+import Home from '../pages/Home.jsx'
+import About from '../pages/About.jsx'
+import Awards from '../pages/Awards.jsx'
+import Voting from '../pages/Voting.jsx'
+import Tickets from '../pages/Tickets.jsx'
+import Guests from '../pages/Guests.jsx'
+import Performances from '../pages/Performances.jsx'
+import Sponsors from '../pages/Sponsors.jsx'
+import Logistics from '../pages/Logistics.jsx'
 
 export default function AppRoutes() {
   return (
