@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom'
 import { theme } from '../styles/theme.js'
+import ComingSoonSection from '../components/ComingSoonSection.jsx'
 
 export default function Home() {
   return (
+    <>
     <section
       className={`${theme.section.base} mt-3 min-h-[90vh] flex items-center relative overflow-hidden`}
     >
@@ -23,7 +25,7 @@ export default function Home() {
           className={`${theme.heading.primary} leading-tight animate-rise`}
         >
           IKOLE <br />
-          <span className="text-gold drop-shadow-[0_0_30px_rgba(212,175,55,0.35)]">
+          <span className="text-gold drop-shadow-[0_0_30px_rgba(212,175,55,0.35)] ml-14">
             BALLON D’OR
           </span>{' '}
           <span className="text-white/80">1.0</span>
@@ -55,6 +57,10 @@ export default function Home() {
           </Link>
         </div>
       </div>
+
     </section>
+    <ComingSoonSection />
+
+  </>
   )
 }
