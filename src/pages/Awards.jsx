@@ -1,7 +1,7 @@
 import { awards } from '../data/awards.data'
 import { theme } from '../styles/theme'
 import awardPlaceholder from '../assests/placeholder/31343C.svg'
-import Container from '../components/container'
+import Container from '../components/Container.jsx'
 
 export default function Awards() {
   return (
